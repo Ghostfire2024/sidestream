@@ -1,0 +1,40 @@
+# Dataset licence — CC BY-SA 4.0
+
+Copyright (c) 2026 Ghostfire2024
+
+The researched dataset in `assets/js/data.js` — the income-stream entries and
+their monthly ranges, startup costs, timelines, summaries, steps, pros, cons,
+scam warnings and platform lists — together with the editorial content in
+`index.html` (Scam Watch, FAQs) is licensed under the
+
+    Creative Commons Attribution-ShareAlike 4.0 International Licence
+    https://creativecommons.org/licenses/by-sa/4.0/
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided that you:
+
+- **Attribute** — credit Sidestream and link back to
+  https://github.com/Ghostfire2024/sidestream, and indicate if changes were
+  made.
+- **ShareAlike** — if you remix, transform or build upon the material, you
+  must distribute your contributions under this same licence.
+
+## Why ShareAlike rather than a permissive licence
+
+The entries were compiled to be honest about figures the industry routinely
+overstates — that vending nets $50–150 a machine rather than the advertised
+$300–600, that the median adult-subscription creator earns under $200 a month,
+that craft brewing runs 4–9% net despite 80% gross margins.
+
+ShareAlike means anyone reusing this dataset commercially must publish their
+version under the same terms. That is deliberately unattractive to the
+affiliate-funded sites this directory exists to be an alternative to, while
+remaining fully open to researchers, educators, non-profits and anyone
+building something they are willing to share back.
+
+## Not advice
+
+The dataset is educational information, not financial, tax or legal advice.
+Figures are researched ranges reported by practitioners and platforms — they
+are not promises, and most people land at the low end. Rules on tax, licensing,
+insurance and permitted work vary by country and city.

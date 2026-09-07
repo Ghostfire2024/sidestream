@@ -7,9 +7,11 @@ job board: nothing here is an application to be someone's employee.
 Built with HTML, Tailwind CSS and vanilla JavaScript. No build step, no dependencies,
 no backend.
 
+**Live: <https://ghostfire2024.github.io/sidestream/>**
+
 ---
 
-## Running it
+## Running it locally
 
 Any static server works. A dependency-free one is included:
 
@@ -21,6 +23,16 @@ Then open <http://localhost:4173>.
 
 Opening `index.html` directly from the filesystem also works, though a server is
 preferable so relative asset paths and `history.replaceState` behave normally.
+
+## Tests
+
+No framework and no dependencies — a small DOM stub boots the real `index.html` and
+the three scripts, then exercises the dataset contract, rendering, filtering, the
+shortlist, sharing and the matcher.
+
+```bash
+node test/run.js
+```
 
 ---
 
@@ -147,6 +159,18 @@ npx tailwindcss -i ./src/input.css -o ./assets/css/tailwind.css --minify
 Then move the `tailwind.config` object from `index.html` into `tailwind.config.js`,
 replace the CDN `<script>` with a `<link>` to the generated file, and keep
 `assets/css/styles.css` as-is.
+
+## Licence
+
+Split deliberately, because the code and the research are different kinds of thing:
+
+- **Code** — MIT. Do what you like with the site, the matcher and the tests. See [LICENSE](LICENSE).
+- **Dataset and editorial content** — CC BY-SA 4.0. Reuse it, including commercially,
+  but attribute it and publish your version under the same terms. See [LICENSE-DATA](LICENSE-DATA).
+
+ShareAlike on the data is the point: it stays open to researchers, educators and
+anyone building in the open, while being unattractive to the affiliate-funded
+content mills this directory exists as an alternative to.
 
 ## Disclaimer
 
