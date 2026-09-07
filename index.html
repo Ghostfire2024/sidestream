@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sidestream — Directory of Legitimate Alternative Income</title>
+<meta name="description" content="A researched directory of legitimate ways to earn money outside a traditional paycheck — online and off. Filter by startup cost, time to first payment, effort and skill level." />
+<meta name="theme-color" content="#f6f7f9" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#0d121c" media="(prefers-color-scheme: dark)" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Sidestream" />
+<meta property="og:title" content="Sidestream — Directory of Legitimate Alternative Income" />
+<meta property="og:description" content="113 researched ways to earn money outside a traditional paycheck. Filter by startup cost, time to first payment, effort and skill — and see the honest downsides of each." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Sidestream — Directory of Legitimate Alternative Income" />
+<meta name="twitter:description" content="113 researched ways to earn money outside a traditional paycheck, with the real numbers and the honest downsides." />
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2317b583'/%3E%3Cpath d='M9 21c3.5 0 4-10 7.5-10S21 21 24 21' stroke='%23032b21' stroke-width='2.6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem('sidestream:theme');
+      if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      }
+    } catch (e) {}
+  })();
+</script>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    darkMode: 'class',
+    theme: {
+      extend: {
+        colors: {
+          brand: {
+            50: '#eefdf6', 100: '#d5f9e8', 200: '#aef1d4', 300: '#77e4ba', 400: '#3ecf9c',
+            500: '#17b583', 600: '#0b9269', 700: '#0a7554', 800: '#0b5d45', 900: '#0a4c3a', 950: '#032b21'
+          },
+          ink: {
+            50: '#f6f7f9', 100: '#eceef2', 200: '#d5d9e2', 300: '#b0b8c8', 400: '#8591a8',
+            500: '#66738c', 600: '#515c73', 700: '#2a3244', 800: '#151b28', 900: '#0d121c', 950: '#070a11'
+          }
+        },
+        fontFamily: {
+          sans: ['"Plus Jakarta Sans"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+          mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace']
+        },
+        boxShadow: {
+          card: '0 1px 2px rgba(13,18,28,.04), 0 8px 24px -12px rgba(13,18,28,.18)',
+          lift: '0 2px 4px rgba(13,18,28,.05), 0 18px 40px -18px rgba(13,18,28,.35)'
+        }
+      }
+    }
+  };
+</script>
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body class="bg-ink-50 text-ink-900 dark:bg-ink-950 dark:text-ink-100 font-sans antialiased">
+
+<a href="#directory" class="sr-only focus:not-sr-only focus:fixed focus:z-[100] focus:top-3 focus:left-3 focus:rounded-lg focus:bg-brand-600 focus:px-4 focus:py-2 focus:text-white">Skip to directory</a>
+
+<!-- ============ HEADER ============ -->
+<header id="top" class="sticky top-0 z-50 border-b border-ink-200/70 dark:border-white/10 bg-ink-50/85 dark:bg-ink-950/85 backdrop-blur-lg">
+  <div class="mx-auto flex h-16 max-w-7xl items-center gap-3 px-4 sm:px-6 lg:px-8">
+    <a href="#top" class="flex shrink-0 items-center gap-2.5 font-extrabold tracking-tight">
+      <span class="grid h-9 w-9 place-items-center rounded-xl bg-brand-500 text-ink-950 shadow-sm">
+        <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 16c3 0 3.2-8 6-8s3 8 6 8 2.5-4 4-4"/></svg>
+      </span>
+      <span class="text-lg">Side<span class="text-brand-600 dark:text-brand-400">stream</span></span>
+    </a>
+
+    <nav class="ml-auto hidden items-center gap-1 md:flex" aria-label="Main">
+      <a class="nav-link" href="#directory">Directory</a>
+      <a class="nav-link" href="#match">Find your fit</a>
+      <a class="nav-link" href="#safety">Scam watch</a>
+      <a class="nav-link" href="#faq">FAQ</a>
+    </nav>
+
+    <div class="ml-auto flex items-center gap-1.5 md:ml-2">
+      <button id="shortlistBtn" class="relative inline-flex items-center gap-2 rounded-xl border border-ink-200 dark:border-white/10 bg-white dark:bg-ink-800 px-3 py-2 text-sm font-semibold transition hover:border-brand-400 hover:text-brand-700 dark:hover:text-brand-300" aria-haspopup="dialog">
+        <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 4h12v16l-6-4-6 4z"/></svg>
+        <span class="hidden sm:inline">Shortlist</span>
+        <span id="savedCount" class="grid h-5 min-w-[1.25rem] place-items-center rounded-full bg-brand-500 px-1 font-mono text-[11px] font-bold text-ink-950">0</span>
+      </button>
+
+      <button id="themeBtn" class="grid h-10 w-10 place-items-center rounded-xl border border-ink-200 dark:border-white/10 bg-white dark:bg-ink-800 transition hover:border-brand-400" aria-label="Toggle dark mode">
+        <svg class="h-[18px] w-[18px] dark:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="hidden h-[18px] w-[18px] dark:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8" stroke-linecap="round"/></svg>
+      </button>
+
+      <button id="menuBtn" class="grid h-10 w-10 place-items-center rounded-xl border border-ink-200 dark:border-white/10 bg-white dark:bg-ink-800 md:hidden" aria-label="Open menu" aria-expanded="false">
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <div id="mobileMenu" class="hidden border-t border-ink-200/70 px-4 py-3 dark:border-white/10 md:hidden">
+    <a class="mob-link" href="#directory">Directory</a>
+    <a class="mob-link" href="#match">Find your fit</a>
+    <a class="mob-link" href="#safety">Scam watch</a>
+    <a class="mob-link" href="#faq">FAQ</a>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="relative overflow-hidden">
+  <div class="pointer-events-none absolute inset-0 -z-10">
+    <div class="absolute -top-40 left-1/2 h-[38rem] w-[38rem] -translate-x-1/2 rounded-full bg-brand-400/25 blur-[110px] dark:bg-brand-600/20"></div>
+    <div class="absolute -right-24 top-24 h-72 w-72 rounded-full bg-amber-300/25 blur-[90px] dark:bg-amber-500/10"></div>
+    <div class="absolute inset-0 bg-grid opacity-50 dark:opacity-30"></div>
+  </div>
+
+  <div class="mx-auto max-w-7xl px-4 pb-14 pt-16 sm:px-6 sm:pt-24 lg:px-8">
+    <div class="mx-auto max-w-3xl text-center">
+      <span class="inline-flex items-center gap-2 rounded-full border border-brand-300/70 bg-brand-50 px-3.5 py-1.5 text-xs font-bold uppercase tracking-widest text-brand-800 dark:border-brand-500/30 dark:bg-brand-500/10 dark:text-brand-300">
+        <span class="relative flex h-2 w-2"><span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand-500 opacity-70"></span><span class="relative inline-flex h-2 w-2 rounded-full bg-brand-500"></span></span>
+        <span id="heroCount">113</span> researched income streams
+      </span>
+
+      <h1 class="mt-6 text-balance text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-6xl">
+        Income doesn't only come<br class="hidden sm:block" /> from a
+        <span class="relative whitespace-nowrap">
+          <span class="relative z-10">paycheck.</span>
+          <svg class="absolute -bottom-1.5 left-0 z-0 h-3 w-full text-brand-400/70" viewBox="0 0 200 12" preserveAspectRatio="none"><path d="M2 8c40-6 80-6 120-2s60 2 76-2" stroke="currentColor" stroke-width="5" fill="none" stroke-linecap="round"/></svg>
+        </span>
+      </h1>
+
+      <p class="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-ink-600 dark:text-ink-300">
+        Sidestream is a directory, not a job board. Every entry is a real, legal way people earn
+        outside employment — with honest numbers on what it pays, what it costs to start, and how
+        long before the first dollar actually lands.
+      </p>
+
+      <form id="heroSearchForm" class="mx-auto mt-9 max-w-xl" role="search">
+        <label for="heroSearch" class="sr-only">Search income streams</label>
+        <div class="relative">
+          <svg class="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-ink-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.4-3.4" stroke-linecap="round"/></svg>
+          <input id="heroSearch" type="search" autocomplete="off" placeholder="Try passive, writing, no startup cost, weekends..."
+            class="w-full rounded-2xl border border-ink-200 bg-white py-4 pl-12 pr-32 text-base shadow-card outline-none transition placeholder:text-ink-400 focus:border-brand-500 focus:ring-4 focus:ring-brand-500/15 dark:border-white/10 dark:bg-ink-800" />
+          <button type="submit" class="absolute right-2 top-1/2 -translate-y-1/2 rounded-xl bg-ink-900 px-5 py-2.5 text-sm font-bold text-white transition hover:bg-ink-700 dark:bg-brand-500 dark:text-ink-950 dark:hover:bg-brand-400">Search</button>
+        </div>
+      </form>
+
+      <div class="mt-4 flex flex-wrap items-center justify-center gap-2 text-sm">
+        <span class="text-ink-500 dark:text-ink-400">Popular:</span>
+        <button class="quick-tag" data-q="passive">passive income</button>
+        <button class="quick-tag" data-q="no cost">zero to start</button>
+        <button class="quick-tag" data-q="fast">paid this week</button>
+        <button class="quick-tag" data-q="beginner">beginner friendly</button>
+        <button class="quick-tag" data-q="short-training">learn it fast</button>
+      </div>
+
+      <div class="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
+        <button data-open-quiz class="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-brand-500 px-6 py-3.5 font-bold text-ink-950 shadow-lift transition hover:bg-brand-400 sm:w-auto">
+          <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><path d="m12 3 2.3 5.2 5.7.5-4.3 3.8 1.3 5.5L12 15.1 6.9 18l1.3-5.5L4 8.7l5.7-.5z"/></svg>
+          Find what fits me
+        </button>
+        <a href="#directory" class="inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-ink-300 bg-white px-6 py-3.5 font-bold transition hover:border-ink-900 dark:border-white/15 dark:bg-ink-800 dark:hover:border-white/40 sm:w-auto">
+          Browse all
+          <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <dl class="mx-auto mt-16 grid max-w-4xl grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
+      <div class="stat-card"><dt>Income streams</dt><dd class="counter" data-key="total">0</dd></div>
+      <div class="stat-card"><dt>Categories</dt><dd class="counter" data-key="cats">0</dd></div>
+      <div class="stat-card"><dt>Free to start</dt><dd class="counter" data-to="0" data-key="free">0</dd></div>
+      <div class="stat-card"><dt>Pay within a month</dt><dd class="counter" data-to="0" data-key="fast">0</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- ============ DIRECTORY ============ -->
+<section id="directory" class="mx-auto max-w-7xl scroll-mt-20 px-4 py-12 sm:px-6 lg:px-8">
+  <div class="mb-6 flex flex-wrap items-end justify-between gap-4">
+    <div>
+      <h2 class="text-2xl font-extrabold tracking-tight sm:text-3xl">The directory</h2>
+      <p class="mt-1 text-ink-600 dark:text-ink-400">Filter by what you actually have: time, money, skills, patience.</p>
+    </div>
+    <div class="flex items-center gap-2">
+      <label for="sortSelect" class="text-sm font-semibold text-ink-500 dark:text-ink-400">Sort</label>
+      <select id="sortSelect" class="rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm font-semibold outline-none focus:border-brand-500 dark:border-white/10 dark:bg-ink-800">
+        <option value="relevance">Best match</option>
+        <option value="pay-desc">Earning potential</option>
+        <option value="cost-asc">Lowest startup cost</option>
+        <option value="speed-asc">Fastest first payment</option>
+        <option value="az">A to Z</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- category chips -->
+  <div class="relative -mx-4 mb-4 px-4 sm:mx-0 sm:px-0">
+    <div id="catChips" class="flex snap-x gap-2 overflow-x-auto pb-2 no-scrollbar" role="tablist" aria-label="Categories"></div>
+  </div>
+
+  <!-- filter bar -->
+  <div class="rounded-2xl border border-ink-200 bg-white shadow-card dark:border-white/10 dark:bg-ink-800/60">
+    <div class="flex flex-wrap items-center gap-3 p-3">
+      <div class="relative min-w-0 flex-1">
+        <svg class="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-ink-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.4-3.4" stroke-linecap="round"/></svg>
+        <input id="searchInput" type="search" placeholder="Search 113 income streams..." autocomplete="off"
+          class="w-full rounded-xl border border-ink-200 bg-ink-50 py-2.5 pl-10 pr-3 text-sm outline-none transition focus:border-brand-500 focus:bg-white dark:border-white/10 dark:bg-ink-900 dark:focus:bg-ink-900" />
+      </div>
+      <button id="filterToggle" class="inline-flex items-center gap-2 rounded-xl border border-ink-200 px-3.5 py-2.5 text-sm font-bold transition hover:border-brand-400 dark:border-white/10" aria-expanded="false">
+        <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M6 12h12M10 18h4"/></svg>
+        Filters
+        <span id="filterBadge" class="hidden grid h-5 min-w-[1.25rem] place-items-center rounded-full bg-brand-500 px-1 font-mono text-[11px] font-bold text-ink-950">0</span>
+      </button>
+      <button id="resetBtn" class="rounded-xl px-3 py-2.5 text-sm font-bold text-ink-500 underline-offset-4 transition hover:text-brand-700 hover:underline dark:text-ink-400 dark:hover:text-brand-300">Reset</button>
+    </div>
+
+    <div id="filterPanel" class="hidden border-t border-ink-200 p-4 dark:border-white/10">
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <fieldset data-facet="cost">
+          <legend class="facet-legend">Startup cost</legend>
+          <div class="facet-options"></div>
+        </fieldset>
+        <fieldset data-facet="speed">
+          <legend class="facet-legend">Time to first payment</legend>
+          <div class="facet-options"></div>
+        </fieldset>
+        <fieldset data-facet="effort">
+          <legend class="facet-legend">Ongoing effort</legend>
+          <div class="facet-options"></div>
+        </fieldset>
+        <fieldset data-facet="skill">
+          <legend class="facet-legend">Skill needed</legend>
+          <div class="facet-options"></div>
+        </fieldset>
+        <fieldset data-facet="where">
+          <legend class="facet-legend">Where you work</legend>
+          <div class="facet-options"></div>
+        </fieldset>
+        <div class="sm:col-span-2">
+          <label for="payRange" class="facet-legend">Minimum realistic monthly income</label>
+          <input id="payRange" type="range" min="0" max="3000" step="100" value="0" class="mt-3 w-full accent-brand-500" />
+          <div class="mt-1 flex justify-between text-xs font-semibold text-ink-500 dark:text-ink-400">
+            <span>Any</span><span id="payRangeLabel" class="font-mono text-brand-700 dark:text-brand-400">$0+</span><span>$3,000+</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-5 flex flex-wrap items-center gap-2">
+    <p id="resultCount" class="text-sm font-semibold text-ink-500 dark:text-ink-400"></p>
+    <div id="activePills" class="flex flex-wrap gap-1.5"></div>
+  </div>
+
+  <div id="grid" class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"></div>
+
+  <div id="emptyState" class="hidden rounded-2xl border border-dashed border-ink-300 py-16 text-center dark:border-white/15">
+    <div class="mx-auto grid h-14 w-14 place-items-center rounded-2xl bg-ink-100 dark:bg-ink-800">
+      <svg viewBox="0 0 24 24" class="h-7 w-7 text-ink-400" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.4-3.4" stroke-linecap="round"/></svg>
+    </div>
+    <h3 class="mt-4 text-lg font-bold">Nothing matches those filters</h3>
+    <p class="mx-auto mt-1 max-w-sm text-sm text-ink-500 dark:text-ink-400">Try widening the startup cost or clearing the search box.</p>
+    <button data-reset class="mt-5 rounded-xl bg-ink-900 px-5 py-2.5 text-sm font-bold text-white dark:bg-brand-500 dark:text-ink-950">Clear all filters</button>
+  </div>
+
+  <div class="mt-8 text-center">
+    <button id="loadMore" class="hidden rounded-2xl border border-ink-300 bg-white px-6 py-3 font-bold transition hover:border-brand-500 dark:border-white/15 dark:bg-ink-800">Show more</button>
+  </div>
+</section>
+
+<!-- ============ MATCH ============ -->
+<section id="match" class="scroll-mt-20 border-y border-ink-200 bg-white py-16 dark:border-white/10 dark:bg-ink-900/50">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="grid items-center gap-10 lg:grid-cols-2">
+      <div>
+        <span class="pill-label">Matchmaker</span>
+        <h2 class="mt-4 text-3xl font-extrabold tracking-tight sm:text-4xl">Sixty seconds. Six questions. A shortlist that fits your actual life.</h2>
+        <p class="mt-4 text-lg leading-relaxed text-ink-600 dark:text-ink-300">
+          Most "make money online" advice ignores the constraints that decide everything — how many
+          hours you have, how much you can risk, and how soon you need the money. The matcher scores
+          all <span data-count="total">113</span> streams against your answers and explains why each
+          one surfaced.
+        </p>
+        <ul class="mt-6 space-y-3">
+          <li class="check">Weighted against your time, budget and urgency</li>
+          <li class="check">Filters out anything needing skills you don't have yet</li>
+          <li class="check">Nothing is stored or sent anywhere — it runs in your browser</li>
+        </ul>
+        <button data-open-quiz class="mt-8 inline-flex items-center gap-2 rounded-2xl bg-brand-500 px-6 py-3.5 font-bold text-ink-950 shadow-lift transition hover:bg-brand-400">
+          Start the matcher
+          <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+
+      <div class="relative">
+        <div class="absolute -inset-4 -z-10 rounded-[2rem] bg-gradient-to-br from-brand-400/20 to-amber-300/20 blur-2xl"></div>
+        <div class="rounded-3xl border border-ink-200 bg-ink-50 p-6 shadow-lift dark:border-white/10 dark:bg-ink-950">
+          <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-ink-400">
+            <span class="h-2.5 w-2.5 rounded-full bg-red-400"></span>
+            <span class="h-2.5 w-2.5 rounded-full bg-amber-400"></span>
+            <span class="h-2.5 w-2.5 rounded-full bg-brand-400"></span>
+            <span class="ml-2">sample result</span>
+          </div>
+          <div class="mt-5 space-y-3">
+            <div class="sample-row"><span class="sample-rank">1</span><div><p class="font-bold">Bookkeeping for small businesses</p><p class="text-sm text-ink-500 dark:text-ink-400">94% fit — low cost, uses your admin skills</p></div><span class="sample-pay">$1.5k–4k</span></div>
+            <div class="sample-row"><span class="sample-rank">2</span><div><p class="font-bold">Rent out your spare storage</p><p class="text-sm text-ink-500 dark:text-ink-400">88% fit — passive, pays in weeks</p></div><span class="sample-pay">$100–350</span></div>
+            <div class="sample-row"><span class="sample-rank">3</span><div><p class="font-bold">User testing sessions</p><p class="text-sm text-ink-500 dark:text-ink-400">81% fit — paid within days, no experience</p></div><span class="sample-pay">$50–400</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SAFETY ============ -->
+<section id="safety" class="mx-auto max-w-7xl scroll-mt-20 px-4 py-16 sm:px-6 lg:px-8">
+  <div class="mx-auto max-w-2xl text-center">
+    <span class="pill-label">Scam watch</span>
+    <h2 class="mt-4 text-3xl font-extrabold tracking-tight sm:text-4xl">The filter that keeps this directory honest</h2>
+    <p class="mt-4 text-lg text-ink-600 dark:text-ink-300">
+      Every entry here had to pass the same test: real customers, real value exchanged, no recruitment
+      required. Here is the test — use it on anything you find elsewhere.
+    </p>
+  </div>
+
+  <div class="mt-12 grid gap-6 lg:grid-cols-2">
+    <div class="rounded-3xl border border-red-200 bg-red-50/60 p-6 dark:border-red-500/25 dark:bg-red-500/5">
+      <h3 class="flex items-center gap-2.5 text-lg font-extrabold text-red-800 dark:text-red-300">
+        <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 8v5M12 16.5v.5" stroke-linecap="round"/><circle cx="12" cy="12" r="9"/></svg>
+        Walk away immediately
+      </h3>
+      <ul id="redFlags" class="mt-5 space-y-3.5"></ul>
+    </div>
+
+    <div class="rounded-3xl border border-brand-200 bg-brand-50/60 p-6 dark:border-brand-500/25 dark:bg-brand-500/5">
+      <h3 class="flex items-center gap-2.5 text-lg font-extrabold text-brand-800 dark:text-brand-300">
+        <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m8 12.5 2.8 2.8L16 9.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9"/></svg>
+        Signs it is the real thing
+      </h3>
+      <ul id="greenFlags" class="mt-5 space-y-3.5"></ul>
+    </div>
+  </div>
+
+  <div class="mt-6 rounded-3xl border border-ink-200 bg-white p-6 shadow-card dark:border-white/10 dark:bg-ink-800/60 sm:p-8">
+    <h3 class="text-lg font-extrabold">Five minutes of checks before you commit</h3>
+    <div id="checklist" class="mt-5 grid gap-3 sm:grid-cols-2"></div>
+    <p class="mt-5 text-sm text-ink-500 dark:text-ink-400">
+      Tip: search the company name alongside the words "scam", "not paying" and "review" — then read
+      the complaints, not the testimonials. Legitimate platforms have unhappy users too; what matters
+      is whether the complaints are about <em>getting paid at all</em>.
+    </p>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq" class="scroll-mt-20 border-t border-ink-200 bg-white py-16 dark:border-white/10 dark:bg-ink-900/50">
+  <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+    <h2 class="text-center text-3xl font-extrabold tracking-tight sm:text-4xl">Straight answers</h2>
+    <div id="faqList" class="mt-10 divide-y divide-ink-200 dark:divide-white/10"></div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="border-t border-ink-200 bg-ink-50 dark:border-white/10 dark:bg-ink-950">
+  <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <div class="grid gap-10 lg:grid-cols-[1.5fr_1fr_1fr]">
+      <div>
+        <div class="flex items-center gap-2.5 font-extrabold">
+          <span class="grid h-8 w-8 place-items-center rounded-lg bg-brand-500 text-ink-950">
+            <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M4 16c3 0 3.2-8 6-8s3 8 6 8 2.5-4 4-4"/></svg>
+          </span>
+          Sidestream
+        </div>
+        <p class="mt-4 max-w-sm text-sm leading-relaxed text-ink-500 dark:text-ink-400">
+          An independent directory of legitimate alternative income. No sponsored placements, no
+          affiliate links, no "secret system" upsells.
+        </p>
+      </div>
+      <div>
+        <h4 class="footer-h">Explore</h4>
+        <ul class="mt-4 space-y-2.5 text-sm">
+          <li><a class="foot-link" href="#directory">All income streams</a></li>
+          <li><a class="foot-link" href="#match">Find your fit</a></li>
+          <li><a class="foot-link" href="#safety">Scam watch</a></li>
+          <li><a class="foot-link" href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-h">Categories</h4>
+        <ul id="footerCats" class="mt-4 space-y-2.5 text-sm"></ul>
+      </div>
+    </div>
+
+    <div class="mt-12 rounded-2xl border border-amber-300/60 bg-amber-50 p-4 text-sm leading-relaxed text-amber-900 dark:border-amber-500/25 dark:bg-amber-500/5 dark:text-amber-200/90">
+      <strong class="font-extrabold">Important:</strong> Sidestream is educational information, not
+      financial, tax or legal advice. Income figures are researched ranges reported by practitioners
+      and platforms — they are not promises, and most people land at the low end. Investing entries
+      can lose money. Rules on tax, licensing, insurance and subletting vary by country and city;
+      check yours before you start, and speak to a licensed professional about your own situation.
+    </div>
+
+    <p class="mt-8 text-center text-sm text-ink-400">Built as a static site with HTML, Tailwind CSS and vanilla JavaScript.</p>
+  </div>
+</footer>
+
+<!-- ============ DETAIL MODAL ============ -->
+<div id="detailModal" class="fixed inset-0 z-[70] hidden" role="dialog" aria-modal="true" aria-labelledby="detailTitle">
+  <div class="absolute inset-0 bg-ink-950/60 backdrop-blur-sm" data-close></div>
+  <div class="absolute inset-x-0 bottom-0 top-8 sm:inset-8 lg:inset-x-[max(2rem,calc(50%-30rem))]">
+    <div id="detailPanel" class="flex h-full flex-col overflow-hidden rounded-t-3xl border border-ink-200 bg-ink-50 shadow-lift dark:border-white/10 dark:bg-ink-950 sm:rounded-3xl"></div>
+  </div>
+</div>
+
+<!-- ============ QUIZ MODAL ============ -->
+<div id="quizModal" class="fixed inset-0 z-[80] hidden" role="dialog" aria-modal="true" aria-labelledby="quizTitle">
+  <div class="absolute inset-0 bg-ink-950/60 backdrop-blur-sm" data-close></div>
+  <div class="absolute inset-x-0 bottom-0 top-8 sm:inset-y-8 sm:left-1/2 sm:w-[min(46rem,92vw)] sm:-translate-x-1/2">
+    <div id="quizPanel" class="flex h-full flex-col overflow-hidden rounded-t-3xl border border-ink-200 bg-ink-50 shadow-lift dark:border-white/10 dark:bg-ink-950 sm:rounded-3xl"></div>
+  </div>
+</div>
+
+<!-- ============ SHORTLIST DRAWER ============ -->
+<div id="shortlistDrawer" class="fixed inset-0 z-[75] hidden" role="dialog" aria-modal="true" aria-labelledby="shortlistTitle">
+  <div class="absolute inset-0 bg-ink-950/60 backdrop-blur-sm" data-close></div>
+  <aside class="absolute inset-y-0 right-0 flex w-full max-w-md translate-x-0 flex-col border-l border-ink-200 bg-ink-50 shadow-lift dark:border-white/10 dark:bg-ink-950">
+    <header class="flex items-center justify-between border-b border-ink-200 p-5 dark:border-white/10">
+      <h2 id="shortlistTitle" class="text-lg font-extrabold">Your shortlist</h2>
+      <button data-close class="grid h-9 w-9 place-items-center rounded-lg border border-ink-200 dark:border-white/10" aria-label="Close">
+        <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </header>
+    <div id="shortlistBody" class="flex-1 overflow-y-auto p-5"></div>
+    <footer class="space-y-2 border-t border-ink-200 p-5 dark:border-white/10">
+      <button id="compareBtn" class="w-full rounded-xl bg-brand-500 py-3 text-sm font-bold text-ink-950 transition disabled:cursor-not-allowed disabled:opacity-40" disabled>Compare side by side</button>
+      <div class="flex gap-2">
+        <button id="shareSaved" class="flex-1 rounded-xl border border-ink-200 py-2.5 text-sm font-bold transition hover:border-brand-400 disabled:cursor-not-allowed disabled:opacity-40 dark:border-white/10" disabled>Copy link</button>
+        <button id="clearSaved" class="flex-1 rounded-xl border border-ink-200 py-2.5 text-sm font-bold text-ink-500 transition hover:border-red-400 hover:text-red-600 dark:border-white/10 dark:text-ink-400">Clear</button>
+      </div>
+    </footer>
+  </aside>
+</div>
+
+<!-- ============ COMPARE MODAL ============ -->
+<div id="compareModal" class="fixed inset-0 z-[85] hidden" role="dialog" aria-modal="true" aria-labelledby="compareTitle">
+  <div class="absolute inset-0 bg-ink-950/70 backdrop-blur-sm" data-close></div>
+  <div class="absolute inset-0 flex items-end justify-center p-0 sm:items-center sm:p-6">
+    <div id="comparePanel" class="flex h-full w-full max-w-7xl flex-col overflow-hidden rounded-t-3xl border border-ink-200 bg-ink-50 shadow-lift dark:border-white/10 dark:bg-ink-950 sm:h-auto sm:max-h-[90vh] sm:rounded-3xl"></div>
+  </div>
+</div>
+
+<div id="toast" class="pointer-events-none fixed bottom-6 left-1/2 z-[95] hidden -translate-x-1/2 rounded-xl bg-ink-900 px-4 py-2.5 text-sm font-bold text-white shadow-lift dark:bg-white dark:text-ink-950"></div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/matcher.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
