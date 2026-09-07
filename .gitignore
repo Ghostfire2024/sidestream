@@ -1,11 +1,19 @@
-# Dependencies
+# Dependencies (the project has none, but tooling may add them)
 node_modules/
+
+# Local Claude Code settings — launch.json is intentionally tracked
+.claude/settings.local.json
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
 
 # Logs
 *.log
 npm-debug.log*
 
-# OS
+# OS cruft
 .DS_Store
 Thumbs.db
 desktop.ini
@@ -13,4 +21,3 @@ desktop.ini
 # Editor / local tooling
 .vscode/
 .idea/
-.claude/settings.local.json
